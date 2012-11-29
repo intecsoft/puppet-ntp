@@ -11,7 +11,7 @@ class ntp::params {
       $config_file_group = 'root'
       $config_file_mode  = '0644'
     }
-    'centos', 'redhat', 'fedora', 'scientific', 'oel': {
+    'centos', 'redhat', 'fedora', 'scientific', 'oel', 'oraclelinux': {
       $service_name = 'ntpd'
       $driftfile = '/var/lib/ntp/drift'
       $config_file_owner = 'root'
